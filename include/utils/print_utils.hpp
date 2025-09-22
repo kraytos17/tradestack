@@ -41,6 +41,5 @@ namespace tradestack {
                         std::ostream& os = std::cout) {
             os << std::format("{:<{}}: {}\n", label, labelWidth, value);
         }
-
     }  // namespace utils
 }  // namespace tradestack

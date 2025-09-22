@@ -70,10 +70,6 @@ namespace tradestack {
         using node_ref = node_type*;
         /// Const raw node pointer.
         using const_node = const node_type*;
-        /// Function type for visiting mutable nodes.
-        // using visit_func = std::function<void(node_ref)>;
-        /// Function type for visiting const nodes.
-        // using cvisit_func = std::function<void(const_node)>;
         /// Result of an insertion: (pointer to node, bool created).
         using insert_res = std::pair<node_ref, bool>;
         /// Size type for counts.
